@@ -50,8 +50,8 @@ def get_parser():
   return args
 
 import sys
-sys.path.append('/data/project/models/ProDesign')
-sys.path.append('/data/project/models')
+sys.path.append(sys.path[0]+'/models/ProDesign')
+sys.path.append(sys.path[0]+'/models')
 
 from ProDesign.main import Exp
 args = get_parser()

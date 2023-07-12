@@ -1,18 +1,6 @@
 # download codes/data 
 import os,sys
-
 os.chdir(sys.path[0]+'/models')
-if not os.path.isdir("ProDesign"):
-    os.system("git clone -q https://github.com/A4Bio/ProDesign.git")
-    os.makedirs('ProDesign/data/cath', exist_ok=True)
-    os.makedirs('ProDesign/data/ts', exist_ok=True)
-    os.system('wget -O ProDesign/data/cath.zip https://github.com/A4Bio/PiFold/releases/download/Training%26Data/cath4.2.zip')
-    os.system('unzip ProDesign/data/cath.zip -d ProDesign/data/cath')
-    os.system('mv ProDesign/data/cath/cath4.2/* ProDesign/data/cath/')
-    os.system('wget -O ProDesign/data/ts.zip https://github.com/A4Bio/PiFold/releases/download/Training%26Data/ts.zip')
-    os.system('unzip ProDesign/data/ts.zip -d ProDesign/data/')
-    os.makedirs('ProDesign/results', exist_ok=True)
-    os.system('wget -O ProDesign/results/checkpoint.pth https://github.com/A4Bio/PiFold/releases/download/Training%26Data/checkpoint.pth')
 
 def get_parser():
   import argparse
@@ -68,3 +56,5 @@ sys.path.append('/data/project/models')
 from ProDesign.main import Exp
 args = get_parser()
 exp = Exp(args)
+
+os.chdir('../')

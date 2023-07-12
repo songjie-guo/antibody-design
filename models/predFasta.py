@@ -102,7 +102,7 @@ def pred(data,exp):
     return recovery, S_design, S_true
 
 def pred_fasta(exp):
-    input_pdb = '/data/project/cache/tmp.pdb'
+    input_pdb = 'cache/tmp.pdb'
     H_data = parsePDB(input_pdb, ['H'])
     H_recovery,H_pred,_ = pred(H_data,exp)
     L_data = parsePDB(input_pdb, ['L'])

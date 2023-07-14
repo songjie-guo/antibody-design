@@ -1,13 +1,13 @@
 # antibody-design
 
 ## Intro
-We use the idea of "sequence-structure-sequence" to design a new antibody. In the "sequence-structure" and "structure-sequence", we use IgFold and PiFold separately.
+We use the idea of "**sequence-structure-sequence**" to design a new antibody. In the "sequence-structure" and "structure-sequence", we use IgFold and PiFold separately.
 
-To maintain a reasonable 2/3D structure of the antibody, our design restricts the changes of CDR regions only.
+To maintain a reasonable 2/3D structure of the antibody, our design restricts the changes of **CDR regions** only.
 
-As a result, we generate new antibody structures and sequences, providing potentially better solutions. Subsequent work can implement docking (e.g. HADDOCK) to evaluate the new binding between antibodies and antigens.
+As a result, we generate new antibody structures and sequences, providing potentially better solutions. Subsequent work can implement **docking** (e.g. HADDOCK) to evaluate the new binding between antibodies and antigens.
 
-If you are interested in getting antibody and antigen data pairs, please check my repo bio-data [https://github.com/songjie-guo/bio-data.git].
+If you are interested in getting antibody and antigen data pairs, please check my repo [bio-data](https://github.com/songjie-guo/bio-data.git).
 
 ## Try it!
 You can try the python noteboook in Google Colab below. 

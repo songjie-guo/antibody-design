@@ -1,6 +1,6 @@
 # download codes/data 
 import os,sys
-os.chdir(sys.path[0]+'/models')
+os.chdir('./models')
 
 def get_parser():
   import argparse

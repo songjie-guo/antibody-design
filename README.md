@@ -5,7 +5,7 @@ We use the idea of "**sequence-structure-sequence**" to design a new antibody. I
 
 To maintain a reasonable 2/3D structure of the antibody, our design restricts the changes of **CDR regions** only.
 
-As a result, we generate new antibody structures and sequences, providing potentially better solutions. Subsequent work can implement **docking** (e.g. HADDOCK) to evaluate the new binding between antibodies and antigens.
+As a result, we generate new antibody structures and sequences, providing potentially better solutions. Subsequent work may implement **docking** (e.g. HADDOCK) to evaluate the new binding between antibodies and antigens.
 
 If you are interested in getting antibody and antigen data pairs, please check my repo [bio-data](https://github.com/songjie-guo/bio-data.git).
 

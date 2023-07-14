@@ -1,4 +1,4 @@
-name: mine
+name: test
 channels:
   - bioconda
   - conda-forge
@@ -143,4 +143,4 @@ dependencies:
       - urllib3==1.26.13
       - yarl==1.9.2
       - zipp==3.15.0
-prefix: /opt/conda/envs/mine
+prefix: /opt/conda/envs/test

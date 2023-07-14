@@ -1,6 +1,6 @@
 # download codes/data 
 import os,sys
-os.chdir('./models')
+os.chdir('models')
 
 def get_parser():
   import argparse
@@ -50,8 +50,8 @@ def get_parser():
   return args
 
 import sys
-sys.path.append('./models/ProDesign')
-sys.path.append('./models')
+sys.path.append('content/models/ProDesign')
+sys.path.append('content/models')
 
 from ProDesign.main import Exp
 args = get_parser()

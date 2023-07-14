@@ -50,8 +50,12 @@ def get_parser():
   return args
 
 import sys
+# for colab
 sys.path.append('/content/models/ProDesign')
 sys.path.append('/content/models')
+# for others
+sys.path.append(sys.path[0]+'/models/ProDesign')
+sys.path.append(sys.path[0]+'/models')
 
 from ProDesign.main import Exp
 args = get_parser()
